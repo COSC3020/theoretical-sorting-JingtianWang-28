@@ -31,7 +31,7 @@ Based on the decision tree model of sorting, each comparison has two possible re
 
 Based on the known information of the current algorithm, any general sorting requires at least nlogn information to distinguish the sorting of n elements in the worst case, so at least omega(nlogn) comparisons are required.
 
-In summary, unless it is sorting for a specific situation, this algorithm may be wrong
+In summary, unless it is best case time complexity, this algorithm may be wrong
 
 ###
 Source:https://en.wikipedia.org/wiki/Sorting_algorithm
