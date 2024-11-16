@@ -16,3 +16,30 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+///
+
+Use ordered and unordered arrays and arrays of various situations, and choose arrays of different lengths
+
+Create lists of different sizes for testing, including different orders and lengths, such as forward and reverse order, random, empty arrays, etc.
+
+Data types include random integers and floating point numbers.
+
+Then run and record the execution time, draw a chart with the x-axis as the array size and the y-axis as the time
+
+Compared with the known O(nlogn) sorting algorithm, the execution time of O(nlogn) will grow faster than O(n) on y-axis, when the input content is the same.
+
+The experiment will observe the execution time recorded in the chart. If this algorithm has O(n) time complexity, the execution time should grow linearly according to the array size, growing to n.
+
+If it deviates from the trend, it may prove to be a failure.
+
+Based on the decision tree model of sorting, each comparison has two possible results, and sorting n elements requires at least log(n!) or nlogn comparisons.
+
+Based on the known information of the current algorithm, any general sorting requires at least nlogn information to distinguish the sorting of n elements in the worst case, so at least omega(nlogn) comparisons are required.
+
+In summary, unless it is best case time complexity, this algorithm may be wrong
+
+###
+Source:https://en.wikipedia.org/wiki/Sorting_algorithm
+
+Plagiarism Statement: “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
