@@ -27,7 +27,7 @@ Data types include random integers and floating point numbers.
 
 Then run and record the execution time, draw a chart with the x-axis as the array size and the y-axis as the time
 
-Compared with the known O(nlogn) sorting algorithm, the execution time of O(nlogn) will grow faster when the input content is the same.
+Compared with the known O(nlogn) sorting algorithm, the execution time of O(nlogn) will grow faster than O(n) on y-axis, when the input content is the same.
 
 The experiment will observe the execution time recorded in the chart. If this algorithm has O(n) time complexity, the execution time should grow linearly according to the array size, growing to n.
 
